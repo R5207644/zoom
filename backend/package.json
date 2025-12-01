@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Video calling web app backend",
+  "license": "ISC",
+  "author": "Sarvesh Kumar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "http-status": "^2.1.0",
+    "mongoose": "^8.20.0",
+    "nodemon": "^3.1.11",
+    "socket.io": "^4.8.1"
+  }
+}
